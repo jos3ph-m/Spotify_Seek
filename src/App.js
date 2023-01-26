@@ -12,7 +12,9 @@ import {
 function App() {
   return (
     <div className="App">
-      <Container></Container>
+      <Container>
+        <InputGroup className="mb-3"></InputGroup>
+      </Container>
     </div>
   );
 }
