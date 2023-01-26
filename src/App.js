@@ -12,6 +12,7 @@ import {
 import { useState, useEffect } from 'react';
 
 function App() {
+  const [searchInput, setSearchInput] = useState('');
   return (
     <div className="App">
       <Container>
