@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <InputGroup className="mb-3" size="lg"></InputGroup>
+        <InputGroup className="mb-3" size="lg">
+          <FormControl></FormControl>
+        </InputGroup>
       </Container>
     </div>
   );
