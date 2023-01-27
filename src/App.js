@@ -28,7 +28,7 @@ function App() {
             onChange={(event) => setSearchInput(event.target.value)}
           />
           <Button
-            onClick={(event) => {
+            onClick={() => {
               console.log('Clicked button');
             }}
           >
