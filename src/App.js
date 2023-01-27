@@ -31,7 +31,9 @@ function App() {
             onClick={(event) => {
               console.log('Clicked button');
             }}
-          ></Button>
+          >
+            Search
+          </Button>
         </InputGroup>
       </Container>
     </div>
