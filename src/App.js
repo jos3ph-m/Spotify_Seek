@@ -37,7 +37,9 @@ function App() {
           </Button>
         </InputGroup>
       </Container>
-      <Container></Container>
+      <Container>
+        <Card></Card>
+      </Container>
     </div>
   );
 }
