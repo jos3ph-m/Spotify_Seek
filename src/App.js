@@ -41,7 +41,7 @@ function App() {
         <Card>
           <Card.Img src="#" />
           <Card.Body>
-            <Card.Title></Card.Title>
+            <Card.Title>Album name here</Card.Title>
           </Card.Body>
         </Card>
       </Container>
