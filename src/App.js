@@ -40,7 +40,9 @@ function App() {
       <Container>
         <Card>
           <Card.Img src="#" />
-          <Card.Body></Card.Body>
+          <Card.Body>
+            <Card.Title></Card.Title>
+          </Card.Body>
         </Card>
       </Container>
     </div>
