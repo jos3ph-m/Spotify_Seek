@@ -38,7 +38,9 @@ function App() {
         </InputGroup>
       </Container>
       <Container>
-        <Card></Card>
+        <Card>
+          <Card.Img src="#" />
+        </Card>
       </Container>
     </div>
   );
