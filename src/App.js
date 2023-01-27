@@ -25,6 +25,7 @@ function App() {
                 console.log('pressed enter');
               }
             }}
+            onChange={(event) => setSearchInput(event.target.value)}
           />
         </InputGroup>
       </Container>
