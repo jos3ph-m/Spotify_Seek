@@ -45,6 +45,24 @@ function App() {
               <Card.Title>Album name here</Card.Title>
             </Card.Body>
           </Card>
+          <Card>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Title>Album name here</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Title>Album name here</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Title>Album name here</Card.Title>
+            </Card.Body>
+          </Card>
         </Row>
       </Container>
     </div>
