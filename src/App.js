@@ -38,7 +38,7 @@ function App() {
         </InputGroup>
       </Container>
       <Container>
-        <Row className="mx-2 row"></Row>
+        <Row className="mx-2 row row-cols-4"></Row>
         <Card>
           <Card.Img src="#" />
           <Card.Body>
