@@ -38,13 +38,14 @@ function App() {
         </InputGroup>
       </Container>
       <Container>
-        <Row className="mx-2 row row-cols-4"></Row>
-        <Card>
-          <Card.Img src="#" />
-          <Card.Body>
-            <Card.Title>Album name here</Card.Title>
-          </Card.Body>
-        </Card>
+        <Row className="mx-2 row row-cols-4">
+          <Card>
+            <Card.Img src="#" />
+            <Card.Body>
+              <Card.Title>Album name here</Card.Title>
+            </Card.Body>
+          </Card>
+        </Row>
       </Container>
     </div>
   );
