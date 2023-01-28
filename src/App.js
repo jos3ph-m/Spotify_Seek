@@ -38,6 +38,7 @@ function App() {
         </InputGroup>
       </Container>
       <Container>
+        <Row></Row>
         <Card>
           <Card.Img src="#" />
           <Card.Body>
