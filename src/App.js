@@ -12,6 +12,8 @@ import {
 
 import { useState, useEffect } from 'react';
 
+const CLIENT_ID = process.env.CLIENT_ID;
+
 function App() {
   const [searchInput, setSearchInput] = useState('');
   return (
