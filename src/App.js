@@ -13,6 +13,7 @@ import {
 import { useState, useEffect } from 'react';
 
 const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
