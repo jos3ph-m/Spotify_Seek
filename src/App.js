@@ -18,7 +18,9 @@ const CLIENT_SECRET = process.env.CLIENT_SECRET;
 function App() {
   const [searchInput, setSearchInput] = useState('');
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    // API Access Token
+  }, []);
   return (
     <div className="App">
       <Container>
