@@ -20,6 +20,7 @@ function App() {
 
   useEffect(() => {
     // API Access Token
+    var authParameters = {};
     fetch('https://accounts.spotify.com/api/token');
   }, []);
   return (
