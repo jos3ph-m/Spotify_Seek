@@ -25,6 +25,11 @@ function App() {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
       },
+      body:
+        'grant_type=client_credentials&client_id=' +
+        CLIENT_ID +
+        '&client_secret' +
+        CLIENT_SECRET,
     };
     fetch('https://accounts.spotify.com/api/token');
   }, []);
