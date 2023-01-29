@@ -20,7 +20,12 @@ function App() {
 
   useEffect(() => {
     // API Access Token
-    var authParameters = {};
+    var authParameters = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+    };
     fetch('https://accounts.spotify.com/api/token');
   }, []);
   return (
