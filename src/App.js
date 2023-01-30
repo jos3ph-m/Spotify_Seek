@@ -31,7 +31,7 @@ function App() {
         '&client_secret' +
         CLIENT_SECRET,
     };
-    fetch('https://accounts.spotify.com/api/token');
+    fetch('https://accounts.spotify.com/api/token', authParameters);
   }, []);
   return (
     <div className="App">
