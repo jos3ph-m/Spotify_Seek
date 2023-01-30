@@ -52,7 +52,7 @@ function App() {
               console.log('Clicked button');
             }}
           >
-            Search
+            Seek
           </Button>
         </InputGroup>
       </Container>
