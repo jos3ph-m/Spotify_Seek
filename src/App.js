@@ -12,8 +12,8 @@ import {
 
 import { useState, useEffect } from 'react';
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
@@ -28,7 +28,7 @@ function App() {
       body:
         'grant_type=client_credentials&client_id=' +
         CLIENT_ID +
-        '&client_secret' +
+        '&client_secret=' +
         CLIENT_SECRET,
     };
     fetch('https://accounts.spotify.com/api/token', authParameters)
