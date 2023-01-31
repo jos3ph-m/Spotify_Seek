@@ -17,6 +17,7 @@ const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
+  const [accessToken, setAccessToken] = useState('');
 
   useEffect(() => {
     // API Access Token
