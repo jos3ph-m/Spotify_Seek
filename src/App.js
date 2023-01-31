@@ -36,6 +36,9 @@ function App() {
       .then((result) => result.json())
       .then((data) => setAccessToken(data.access_token));
   }, []);
+
+  // Search
+
   return (
     <div className="App">
       <Container>
