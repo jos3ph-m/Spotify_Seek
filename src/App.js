@@ -41,7 +41,7 @@ function App() {
   async function search() {
     console.log('Searching for ' + searchInput);
 
-    // Get request using Artist ID
+    // Get request using search to get Artist ID
   }
 
   return (
