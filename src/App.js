@@ -44,6 +44,8 @@ function App() {
     // Get request using search to get Artist ID
 
     // Get request with Artist ID grab all the albums from that artist
+
+    // Display those albums to the user
   }
 
   return (
