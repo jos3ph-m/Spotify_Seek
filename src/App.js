@@ -40,6 +40,8 @@ function App() {
   // Search aka Seek
   async function search() {
     console.log('Searching for ' + searchInput);
+
+    // Get request using Artist ID
   }
 
   return (
