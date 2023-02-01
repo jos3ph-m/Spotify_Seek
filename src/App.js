@@ -38,7 +38,9 @@ function App() {
   }, []);
 
   // Search aka Seek
-  async function search() {}
+  async function search() {
+    console.log('Searching for ' + searchInput);
+  }
 
   return (
     <div className="App">
