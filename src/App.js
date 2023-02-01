@@ -67,7 +67,7 @@ function App() {
           <Card>
             <Card.Img src="#" />
             <Card.Body>
-              <Card.Title>Album name here</Card.Title>
+              <Card.Title>Album Name Here</Card.Title>
             </Card.Body>
           </Card>
         </Row>
