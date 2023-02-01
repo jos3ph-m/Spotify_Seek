@@ -38,6 +38,7 @@ function App() {
   }, []);
 
   // Search aka Seek
+  async function search() {}
 
   return (
     <div className="App">
