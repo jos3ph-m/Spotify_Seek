@@ -46,7 +46,7 @@ function App() {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        Authoization: 'Bearer ' + accessToken,
+        'Authorization': 'Bearer ' + accessToken,
       },
     };
 
