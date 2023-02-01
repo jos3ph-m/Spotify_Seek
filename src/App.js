@@ -54,7 +54,7 @@ function App() {
       'https://api.spotify.com/v1/search',
       artistParameters
     );
-    // Get request with Artist ID grab all the albums from that artist
+    // Get request with Artist ID grab all the albums from searched artist
 
     // Display those albums to the user
   }
