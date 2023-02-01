@@ -51,18 +51,12 @@ function App() {
             type="input"
             onKeyPress={(event) => {
               if (event.key == 'Enter') {
-                console.log('pressed enter');
+                search();
               }
             }}
             onChange={(event) => setSearchInput(event.target.value)}
           />
-          <Button
-            onClick={() => {
-              console.log('Clicked button');
-            }}
-          >
-            Seek
-          </Button>
+          <Button onClick={search}>Seek</Button>
         </InputGroup>
       </Container>
       <Container>
