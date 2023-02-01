@@ -37,7 +37,7 @@ function App() {
       .then((data) => setAccessToken(data.access_token));
   }, []);
 
-  // Search
+  // Search aka Seek
 
   return (
     <div className="App">
