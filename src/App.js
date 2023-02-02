@@ -55,7 +55,7 @@ function App() {
       artistParameters
     )
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => {});
     // Get request with Artist ID grab all the albums from searched artist
 
     // Display those albums to the user
