@@ -51,7 +51,7 @@ function App() {
     };
 
     var artistID = await fetch(
-      'https://api.spotify.com/v1/search',
+      `https://api.spotify.com/v1/search?q=${searchInput}&type=artist`,
       artistParameters
     );
     // Get request with Artist ID grab all the albums from searched artist
