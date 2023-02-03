@@ -64,7 +64,7 @@ function App() {
     var albums = await fetch(
       `https://api.spotify.com/v1/artists/${artistID}/albums?include_groups=album&market=US&limit=50`,
       searchParameters
-    );
+    ).then((response) => response.json());
     // Display those albums to the user
   }
 
