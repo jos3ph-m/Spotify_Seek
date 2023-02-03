@@ -59,7 +59,7 @@ function App() {
         return data.artists.items[0].id;
       });
     // Get request with Artist ID grab all the albums from searched artist
-    console.log(artistID);
+    console.log(`Artist ID is ${artistID}`);
     // Display those albums to the user
   }
 
