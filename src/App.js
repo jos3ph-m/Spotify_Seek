@@ -58,8 +58,10 @@ function App() {
       .then((data) => {
         return data.artists.items[0].id;
       });
-    // Get request with Artist ID grab all the albums from searched artist
+
     console.log(`Artist ID is ${artistID}`);
+    // Get request with Artist ID grab all the albums from searched artist
+
     // Display those albums to the user
   }
 
