@@ -42,7 +42,7 @@ function App() {
     console.log('Searching for ' + searchInput);
 
     // Get request using search to get Artist ID
-    var artistParameters = {
+    var searchParameters = {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ function App() {
 
     var artistID = await fetch(
       `https://api.spotify.com/v1/search?q=${searchInput}&type=artist`,
-      artistParameters
+      searchParameters
     )
       .then((response) => response.json())
       .then((data) => {
