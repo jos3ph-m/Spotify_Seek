@@ -67,7 +67,7 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(`Here is your data: ${data}`);
+        console.log(data);
       });
     // Display those albums to the user
   }
