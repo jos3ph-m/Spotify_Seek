@@ -69,7 +69,6 @@ function App() {
       .then((data) => {
         console.log(data);
       });
-    // Display those albums to the user
   }
 
   return (
