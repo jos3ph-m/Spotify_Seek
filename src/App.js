@@ -62,7 +62,7 @@ function App() {
 
     console.log(`Artist ID is ${artistID}`);
     // Get request with Artist ID grab all the albums from searched artist
-    var albums = await fetch(
+    var returnAlbums = await fetch(
       `https://api.spotify.com/v1/artists/${artistID}/albums?include_groups=album&market=US&limit=50`,
       searchParameters
     )
