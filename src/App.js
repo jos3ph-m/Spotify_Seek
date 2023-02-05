@@ -68,11 +68,12 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setAlbums(data.items);
       });
     // Display those albums to the user
   }
+
+  console.log(albums);
 
   return (
     <div className="App">
