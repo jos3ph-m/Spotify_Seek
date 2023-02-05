@@ -98,7 +98,7 @@ function App() {
             console.log(album);
             return (
               <Card>
-                <Card.Img src="#" />
+                <Card.Img src={album.images[0]} />
                 <Card.Body>
                   <Card.Title>Album Name Here</Card.Title>
                 </Card.Body>
