@@ -69,7 +69,6 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setAlbums(data.items);
-        console.log(data);
       });
     // Display those albums to the user
   }
