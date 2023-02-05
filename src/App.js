@@ -18,7 +18,7 @@ const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 function App() {
   const [searchInput, setSearchInput] = useState('');
   const [accessToken, setAccessToken] = useState('');
-  const [albums, setAlbums] = useState('');
+  const [albums, setAlbums] = useState([]);
 
   useEffect(() => {
     // API Access Token
@@ -68,6 +68,7 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => {
+        setAlbums(data.items);
         console.log(data);
       });
     // Display those albums to the user
