@@ -94,12 +94,17 @@ function App() {
       </Container>
       <Container>
         <Row className="mx-2 row row-cols-4">
-          <Card>
-            <Card.Img src="#" />
-            <Card.Body>
-              <Card.Title>Album Name Here</Card.Title>
-            </Card.Body>
-          </Card>
+          {albums.map((album, i) => {
+            console.log(album);
+            return (
+              <Card>
+                <Card.Img src="#" />
+                <Card.Body>
+                  <Card.Title>Album Name Here</Card.Title>
+                </Card.Body>
+              </Card>
+            );
+          })}
         </Row>
       </Container>
     </div>
